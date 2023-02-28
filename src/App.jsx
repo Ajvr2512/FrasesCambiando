@@ -1,4 +1,4 @@
-import imagen from '../src/assets/img/imagen.png'
+import imagen from './assets/img/Imagen.png'
 import './App.css'
 import { useState } from 'react'
 import Json from './assets/phrases.json'
