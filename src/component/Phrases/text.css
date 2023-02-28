@@ -1,0 +1,41 @@
+.text{
+    color: rgb(14, 13, 13);
+    height: 30%;
+    display: flex;
+    position: absolute;
+    margin-top: 15%;
+    width: 30%;
+    margin-left: 38%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 1027px) {
+.text{
+    margin-left: 32%;
+    margin-top: 20%;
+}
+@media (max-width: 857px){
+.text{
+    margin-top: 23%;
+    width: 40%;
+}
+}
+@media (max-width: 673px){
+.text{
+    margin-top: 30%;
+}
+}
+@media (max-width: 577px){
+.text{
+    font-size: 13px;
+}
+  }
+}
+
+@media (max-width: 460px){
+.text{
+    margin-top:35%;
+    margin-left: 20%;
+}
+
+}
