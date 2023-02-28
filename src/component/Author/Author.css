@@ -22,7 +22,7 @@
 }
 @media (max-width: 673px){
 .Author{
-    margin-top: 45%
+    margin-top: 250px;
 }
 }
 
@@ -35,7 +35,7 @@
   @media (max-width: 460px){
 .Author{
     margin-top: 60%;
-    font-size: 20px;
+    font-size: 15px;
 }
   }
  
