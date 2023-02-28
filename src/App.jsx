@@ -18,7 +18,7 @@ function App() {
   
   return (
     <div className="App" onLoad={Number}>    
-    <img  src={(`../src/assets/img/Imagen_${count1}.jpg`)} alt="Contenedor" />        
+    <img  src={(`/public/img/Imagen_${count1}.jpg`)} alt="Contenedor" />        
     <button className="button" onClick={Number}> 
     <span>Leer Otro </span>
       </button>
