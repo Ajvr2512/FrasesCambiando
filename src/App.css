@@ -99,3 +99,12 @@ font-size: 11px;
 margin-top: 70%;
   }
 }
+@media (max-width: 455px){
+  .img-container{   
+      margin-top: 22%;
+      margin-left: 30%;
+  }
+
+  
+  
+  }
