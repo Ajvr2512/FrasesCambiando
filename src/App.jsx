@@ -1,4 +1,8 @@
 import imagen from './assets/img/Imagen.png'
+import imagen0 from './assets/img/Imagen_0.jpg'
+import imagen1 from './assets/img/Imagen_1.jpg'
+import imagen2 from './assets/img/Imagen_2.jpg'
+import imagen3 from './assets/img/Imagen_3.jpg'
 import './App.css'
 import { useState } from 'react'
 import Json from './assets/phrases.json'
@@ -15,10 +19,19 @@ function App() {
   setCount1([Math.floor(Math.random()*4)])
     
   }
+
+  function img (Count1){
+    let img = "";
+    if (count1 == 0) img = imagen0
+    if (count1==1) img =imagen1
+    if (count1 == 2)img = imagen2
+    if (count1==3) img = imagen3
+    return img;
+  }
   
   return (
     <div className="App" onLoad={Number}>    
-    <img  src={(`../src/assets/img/Imagen_${count1}.jpg`)} alt={`contenedor${count1}`} />        
+    <img  src={img(count1)} alt={`contenedor${count1}`} />        
     <button className="button" onClick={Number}> 
     <span>Leer Otro </span>
       </button>
