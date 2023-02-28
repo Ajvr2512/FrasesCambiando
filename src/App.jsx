@@ -1,6 +1,6 @@
 import imagen from '../src/assets/img/imagen.png'
 import './App.css'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import Json from './assets/phrases.json'
 import Phrases from '../src/component/Phrases/Phrases'
 import Author from '../src/component/Author/Author'
@@ -16,10 +16,8 @@ function App() {
     
   }
   
- 
-
   return (
-    <div className="App">    
+    <div className="App" onLoad={Number}>    
     <img  src={(`../src/assets/img/Imagen_${count1}.jpg`)} alt="Contenedor" />        
     <button className="button" onClick={Number}> 
     <span>Leer Otro </span>
