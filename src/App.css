@@ -102,9 +102,13 @@ margin-top: 70%;
 @media (max-width: 455px){
   .img-container{   
       margin-top: 22%;
-      margin-left: 30%;
+      margin-left: 25%;
   }
 
-  
+  .img-container img{
+    width: 280px;
+    margin-left: 0%;
+     
+      }
   
   }
