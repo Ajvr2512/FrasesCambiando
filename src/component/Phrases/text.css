@@ -27,15 +27,27 @@
 }
 @media (max-width: 577px){
 .text{
-    font-size: 13px;
+    margin-top: 28%;
+    font-size: 12px;
 }
   }
 }
 
-@media (max-width: 460px){
+@media (max-width: 509px){
 .text{
-    margin-top:35%;
-    margin-left: 20%;
+    margin-top:29%;
+    margin-left: 35%;
+    font-size: 12px;
+}
+}
+@media (max-width: 482px){
+ .text{   
+    margin-top: 32%;
+}
+}
+@media (max-width: 455px){
+.text{   
+    margin-top: 38%;
 }
 
 }
