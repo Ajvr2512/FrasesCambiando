@@ -8,17 +8,17 @@ import { useState } from 'react'
 import Json from './assets/phrases.json'
 import Phrases from '../src/component/Phrases/Phrases'
 import Author from '../src/component/Author/Author'
+import { getRandomNumber } from './assets/utils/getRandomNumber'
 
 
 function App() {
-  const [count, setCount] = useState(0);
-  const [count1, setCount1] = useState(0);
+  const [count, setCount] = useState(getRandomNumber(0, Json.length-1));
+  const [count1, setCount1] = useState(getRandomNumber(0,3));
   
-  function Number (){
+ /* function Number (){
   setCount([Math.floor(Math.random()*Json.length)])
-  setCount1([Math.floor(Math.random()*4)])
+  setCount1([Math.floor(Math.random()*4)])}*/
     
-  }
 
   function img (Count1){
     let img = "";
@@ -30,16 +30,17 @@ function App() {
   }
   
   return (
-    <div className="App" onLoad={Number}>    
+    <div className="App">    
     <img  src={img(count1)} alt={`contenedor${count1}`} />        
-    <button className="button" onClick={Number}> 
+    <button className="button" onClick={Json[count].phrase}> 
     <span>Leer Otro </span>
       </button>
-      <div className="img-container"><img  src={imagen} alt="Contenedor de texto" /></div>
+      <div className="img-container"><img src={imagen} alt="Contenedor de texto" /></div>
      <Phrases text={Json[count]}/>
      <Author penman={Json[count]}/>
     </div>
   )
-}
+
+  }
 
 export default App

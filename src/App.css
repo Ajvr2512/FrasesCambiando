@@ -9,22 +9,21 @@
  background-color: yellow;
  display: flex;
  position: relative;
-height: 600px;
 }
 
 .App img{  
 min-width: 100%;
-min-height: 50%;
+height: 100vh;
 }
 .img-container{
   display: flex;
   position: absolute;
-  margin-top: 40px;
-  margin-left: 35%;
+
  
  }
  .img-container img{
-width: 90%;
+max-width: 10%;
+max-height: 70%
 
  }
 
