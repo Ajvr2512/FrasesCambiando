@@ -2,9 +2,9 @@
     color: rgb(14, 13, 13);
     display: flex;
     position: absolute;
-    margin-top: 280px;
+    margin-top: 320px;
     width: 30%;
-    margin-left: 63%;
+    margin-left: 53%;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 150%;
 
@@ -13,7 +13,7 @@
 @media (max-width: 1027px) {
 .Author{
         margin-left: 60%;
-        margin-top: 250px;
+        margin-top: 270px;
     }
 @media (max-width: 857px){
 .Author{
@@ -32,12 +32,18 @@
         font-size: 20px;
     }
   }
-  @media (max-width: 460px){
+  @media (max-width: 495px){
 .Author{
-    margin-top: 60%;
+    margin-top: 45%;
     font-size: 15px;
 }
   }
+  @media (max-width:429px){
+ .Author{   
+       margin-top:250px;
+ 
+   }
+   }
  
     
     
